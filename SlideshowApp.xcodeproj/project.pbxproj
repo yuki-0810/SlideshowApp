@@ -12,6 +12,8 @@
 		B5E157371EF8C2DB00B2EEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E157351EF8C2DB00B2EEEA /* Main.storyboard */; };
 		B5E157391EF8C2DB00B2EEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E157381EF8C2DB00B2EEEA /* Assets.xcassets */; };
 		B5E1573C1EF8C2DB00B2EEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E1573A1EF8C2DB00B2EEEA /* LaunchScreen.storyboard */; };
+		B5E157441EF8C99E00B2EEEA /* ryouri1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5E157431EF8C99E00B2EEEA /* ryouri1.jpg */; };
+		B5E157461EF8C9C500B2EEEA /* ryouri2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B5E157451EF8C9C500B2EEEA /* ryouri2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B5E157381EF8C2DB00B2EEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E1573B1EF8C2DB00B2EEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E1573D1EF8C2DB00B2EEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E157431EF8C99E00B2EEEA /* ryouri1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryouri1.jpg; sourceTree = "<group>"; };
+		B5E157451EF8C9C500B2EEEA /* ryouri2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryouri2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				B5E157311EF8C2DB00B2EEEA /* AppDelegate.swift */,
 				B5E157331EF8C2DB00B2EEEA /* ViewController.swift */,
+				B5E157451EF8C9C500B2EEEA /* ryouri2.jpeg */,
+				B5E157431EF8C99E00B2EEEA /* ryouri1.jpg */,
 				B5E157351EF8C2DB00B2EEEA /* Main.storyboard */,
 				B5E157381EF8C2DB00B2EEEA /* Assets.xcassets */,
 				B5E1573A1EF8C2DB00B2EEEA /* LaunchScreen.storyboard */,
@@ -125,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E1573C1EF8C2DB00B2EEEA /* LaunchScreen.storyboard in Resources */,
+				B5E157461EF8C9C500B2EEEA /* ryouri2.jpeg in Resources */,
+				B5E157441EF8C99E00B2EEEA /* ryouri1.jpg in Resources */,
 				B5E157391EF8C2DB00B2EEEA /* Assets.xcassets in Resources */,
 				B5E157371EF8C2DB00B2EEEA /* Main.storyboard in Resources */,
 			);
