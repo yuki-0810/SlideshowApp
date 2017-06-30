@@ -44,7 +44,19 @@ class ViewController: UIViewController {
         
         let disImage = UIImage(named: "ryouri01.jpg")
         imageView.image = disImage
+        
+        let myTap:UITapGestureRecognizer = UITapGestureRecognizer(target:self, action:#selector(ViewController.scaleImage) )
+        imageView.addGestureRecognizer(myTap)
 
+    }
+    
+    func scaleImage(){
+        let storyboard: UIStoryboard = self.storyboard!
+        let nextView = storyboard.instantiateViewController(withIdentifier: "imageView") as! ImageViewController
+        nextView.bigimage = imageView.image
+        present(nextView, animated: true, completion: nil)
+        
+        
     }
     
     /// Timerによって、一定の間隔で呼び出される関数
@@ -73,7 +85,7 @@ class ViewController: UIViewController {
     @IBAction func StartStop(_ sender: UIButton) {
 
         if self.timer == nil{
-            self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(ViewController.onTimer(timer:)), userInfo: nil, repeats: true)
+            self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(ViewController.onTimer(timer:)), userInfo: nil, repeats: true)
 
             sender.setTitle("停止", for: .normal)
             nextLabel.isEnabled = false
@@ -84,6 +96,8 @@ class ViewController: UIViewController {
             self.timer = nil
 
             sender.setTitle("再生", for: .normal)
+            nextLabel.isEnabled = true
+            backLable.isEnabled = true
         }
     }
     
