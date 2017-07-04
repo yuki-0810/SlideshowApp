@@ -16,18 +16,20 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var backLable: UIButton!
     
+    @IBOutlet weak var startButton: UIButton!
+    
     var timer: Timer?
     
     var displayImgNo = 0
     
     func displayImage(){
-        let imageNameArray = ["ryouri01", "ryouri02"]
+        let imageNameArray = ["ryouri01", "ryouri02", "ryouri03"]
         
         if displayImgNo < 0{
             displayImgNo = 1
         }
         
-        if displayImgNo > 1{
+        if displayImgNo > 2{
             displayImgNo = 0
         }
         
@@ -55,8 +57,11 @@ class ViewController: UIViewController {
         let nextView = storyboard.instantiateViewController(withIdentifier: "imageView") as! ImageViewController
         nextView.bigimage = imageView.image
         present(nextView, animated: true, completion: nil)
-        
-        
+        self.timer?.invalidate()
+        self.timer = nil
+        startButton.setTitle("再生", for: .normal)
+        nextLabel.isEnabled = true
+        backLable.isEnabled = true
     }
     
     /// Timerによって、一定の間隔で呼び出される関数

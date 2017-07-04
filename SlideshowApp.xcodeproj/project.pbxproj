@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B56419A51F03F5980050E7BE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56419A41F03F5980050E7BE /* ImageViewController.swift */; };
+		B56CF5CA1F0BBBA700FF3F59 /* ryouri03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B56CF5C91F0BBBA700FF3F59 /* ryouri03.jpg */; };
 		B5E157321EF8C2DB00B2EEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E157311EF8C2DB00B2EEEA /* AppDelegate.swift */; };
 		B5E157341EF8C2DB00B2EEEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E157331EF8C2DB00B2EEEA /* ViewController.swift */; };
 		B5E157371EF8C2DB00B2EEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E157351EF8C2DB00B2EEEA /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		B56419A41F03F5980050E7BE /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B56CF5C91F0BBBA700FF3F59 /* ryouri03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryouri03.jpg; sourceTree = "<group>"; };
 		B5E1572E1EF8C2DB00B2EEEA /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E157311EF8C2DB00B2EEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E157331EF8C2DB00B2EEEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				B5E157311EF8C2DB00B2EEEA /* AppDelegate.swift */,
 				B5E157331EF8C2DB00B2EEEA /* ViewController.swift */,
+				B56CF5C91F0BBBA700FF3F59 /* ryouri03.jpg */,
 				B5E157451EF8C9C500B2EEEA /* ryouri02.jpg */,
 				B5E157431EF8C99E00B2EEEA /* ryouri01.jpg */,
 				B5E157351EF8C2DB00B2EEEA /* Main.storyboard */,
@@ -136,6 +139,7 @@
 				B5E1573C1EF8C2DB00B2EEEA /* LaunchScreen.storyboard in Resources */,
 				B5E157461EF8C9C500B2EEEA /* ryouri02.jpg in Resources */,
 				B5E157441EF8C99E00B2EEEA /* ryouri01.jpg in Resources */,
+				B56CF5CA1F0BBBA700FF3F59 /* ryouri03.jpg in Resources */,
 				B5E157391EF8C2DB00B2EEEA /* Assets.xcassets in Resources */,
 				B5E157371EF8C2DB00B2EEEA /* Main.storyboard in Resources */,
 			);

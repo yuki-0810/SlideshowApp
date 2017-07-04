@@ -71,6 +71,7 @@
                         <outlet property="backLable" destination="ofF-O3-wx3" id="cWH-89-BbY"/>
                         <outlet property="imageView" destination="ZR9-G2-Gu2" id="RV2-ML-a1P"/>
                         <outlet property="nextLabel" destination="UkU-KJ-Unq" id="prd-fl-eKl"/>
+                        <outlet property="startButton" destination="icz-9p-bDG" id="sYd-62-KXv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
