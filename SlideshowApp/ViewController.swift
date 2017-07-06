@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         let imageNameArray = ["ryouri01", "ryouri02", "ryouri03"]
         
         if displayImgNo < 0{
-            displayImgNo = 1
+            displayImgNo = 2
         }
         
         if displayImgNo > 2{
